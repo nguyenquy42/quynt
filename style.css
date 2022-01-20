@@ -7,5 +7,27 @@
 body {
     height: 100vh;
     background-color: #17a2b8;
+    color: #0e2431;
     overflow: hidden;
+}
+
+.body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 300px;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+}
+
+p {
+    margin-bottom: .75rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
 }
